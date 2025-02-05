@@ -891,6 +891,9 @@
   .bg-\[\#F2F0F1\] {
     background-color: #F2F0F1;
   }
+  .bg-\[\#\] {
+    background-color: #;
+  }
   .bg-black {
     background-color: var(--color-black);
   }
