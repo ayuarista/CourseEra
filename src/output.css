@@ -570,6 +570,9 @@
   .-right-20 {
     right: calc(var(--spacing) * -20);
   }
+  .-right-28 {
+    right: calc(var(--spacing) * -28);
+  }
   .-right-32 {
     right: calc(var(--spacing) * -32);
   }
@@ -603,6 +606,12 @@
   .right-32 {
     right: calc(var(--spacing) * 32);
   }
+  .right-40 {
+    right: calc(var(--spacing) * 40);
+  }
+  .right-44 {
+    right: calc(var(--spacing) * 44);
+  }
   .right-52 {
     right: calc(var(--spacing) * 52);
   }
@@ -611,6 +620,18 @@
   }
   .right-80 {
     right: calc(var(--spacing) * 80);
+  }
+  .right-96 {
+    right: calc(var(--spacing) * 96);
+  }
+  .right-\[26rem\] {
+    right: 26rem;
+  }
+  .right-\[27rem\] {
+    right: 27rem;
+  }
+  .right-\[28rem\] {
+    right: 28rem;
   }
   .-bottom-0 {
     bottom: calc(var(--spacing) * -0);
@@ -668,6 +689,12 @@
   }
   .bottom-36 {
     bottom: calc(var(--spacing) * 36);
+  }
+  .bottom-40 {
+    bottom: calc(var(--spacing) * 40);
+  }
+  .bottom-80 {
+    bottom: calc(var(--spacing) * 80);
   }
   .-left-0 {
     left: calc(var(--spacing) * -0);
@@ -785,6 +812,9 @@
   }
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
+  }
+  .mt-12 {
+    margin-top: calc(var(--spacing) * 12);
   }
   .mt-14 {
     margin-top: calc(var(--spacing) * 14);
@@ -1070,11 +1100,17 @@
   .gap-6 {
     gap: calc(var(--spacing) * 6);
   }
+  .gap-7 {
+    gap: calc(var(--spacing) * 7);
+  }
   .gap-8 {
     gap: calc(var(--spacing) * 8);
   }
   .gap-10 {
     gap: calc(var(--spacing) * 10);
+  }
+  .gap-14 {
+    gap: calc(var(--spacing) * 14);
   }
   .space-y-2 {
     :where(& > :not(:last-child)) {
@@ -1608,11 +1644,17 @@
   .text-black {
     color: var(--color-black);
   }
+  .text-blue-50 {
+    color: var(--color-blue-50);
+  }
   .text-blue-300 {
     color: var(--color-blue-300);
   }
   .text-blue-400 {
     color: var(--color-blue-400);
+  }
+  .text-blue-500 {
+    color: var(--color-blue-500);
   }
   .text-cyan-400 {
     color: var(--color-cyan-400);
@@ -1750,6 +1792,16 @@
     --tw-ease: var(--ease-out);
     transition-timing-function: var(--ease-out);
   }
+  .hover\:scale-105 {
+    &:hover {
+      @media (hover: hover) {
+        --tw-scale-x: 105%;
+        --tw-scale-y: 105%;
+        --tw-scale-z: 105%;
+        scale: var(--tw-scale-x) var(--tw-scale-y);
+      }
+    }
+  }
   .hover\:text-white {
     &:hover {
       @media (hover: hover) {
@@ -1824,6 +1876,11 @@
   .lg\:grid-cols-6 {
     @media (width >= 64rem) {
       grid-template-columns: repeat(6, minmax(0, 1fr));
+    }
+  }
+  .lg\:grid-rows-2 {
+    @media (width >= 64rem) {
+      grid-template-rows: repeat(2, minmax(0, 1fr));
     }
   }
   .xl\:block {
@@ -2038,4 +2095,19 @@ html {
 @property --tw-ease {
   syntax: "*";
   inherits: false;
+}
+@property --tw-scale-x {
+  syntax: "*";
+  inherits: false;
+  initial-value: 1;
+}
+@property --tw-scale-y {
+  syntax: "*";
+  inherits: false;
+  initial-value: 1;
+}
+@property --tw-scale-z {
+  syntax: "*";
+  inherits: false;
+  initial-value: 1;
 }

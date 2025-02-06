@@ -49,6 +49,54 @@ function course() {
         weeks: "6",
         language: "Javascript",
       },
+      {
+        id: 5,
+        img: "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-A-male-student-sits-at-a-desk-with-a-laptop-Other-students-work-in-the-background-on-laptops-and-worksheets?scl=1&fmt=png-alpha",
+        price: "Rp. 400.000",
+        level: "beginner",
+        lesson: "10",
+        student: "25",
+        title: "Intro to Python Programming",
+        rating: "4.8",
+        weeks: "4",
+        language: "Python",
+      },
+      {
+        id: 6,
+        img: "https://www.cityu.edu/wp-content/uploads/2023/05/studying-1024x732.png",
+        price: "Rp. 450.000",
+        level: "intermediate",
+        lesson: "12",
+        student: "32",
+        title: "Data Science with R language",
+        rating: "4.7",
+        weeks: "5",
+        language: "R",
+      },
+      {
+        id: 7,
+        img: "https://res.cloudinary.com/highereducation/images/f_auto,q_auto/v1695822409/ComputerScience.org/student-studying-with-help-from-AI-tools/student-studying-with-help-from-AI-tools.jpg?_i=AA",
+        price: "Rp. 500.000",
+        level: "advanced",
+        lesson: "18",
+        student: "45",
+        title: "Machine Learning Masterclass",
+        rating: "5.0",
+        weeks: "8",
+        language: "Python",
+      },
+      {
+        id: 8,
+        img: "https://us.images.westend61.de/0001453348pw/male-teenager-studying-at-home-MASF19718.jpg",
+        price: "Rp. 550.000",
+        level: "beginner",
+        lesson: "20",
+        student: "50",
+        title: "Introduction to Web Development",
+        rating: "4.9",
+        weeks: "6",
+        language: "HTML, CSS, JS",
+      }
     ],
   };
 }
@@ -128,7 +176,7 @@ function teacher(){
                 img: 'https://i.pinimg.com/736x/4c/fd/3b/4cfd3be3a7061e93f9268a46d183b71b.jpg',
                 name: 'Davis Bryan',
                 jobs: 'Cyber Security',
-            }
+            },
         ]
     }
 }
