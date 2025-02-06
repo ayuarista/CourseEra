@@ -268,6 +268,27 @@
           </div>
         </div>
        </section>
+      <!-- Categories -->
+       <section class="mt-14 mx-20">
+        <div class="text-center">
+          <p class="text-blue-400 uppercase font-medium">CHECKOUT OUR CATEGORIES</p>
+          <h1 class="text-4xl font-bold">Top Categories to <br> Start Learn Programming</h1>
+        </div>
+        <div class="container mx-auto px-6 mt-10" x-data="categories">
+          <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+              <template x-for="item in items" :key="item.name">
+                  <div class="flex flex-col items-center">
+                      <div class="w-28 h-28 flex items-center justify-center border-2 border-dashed rounded-full" :class="item.color">
+                          <ion-icon :name="item.icon" class="text-5xl bg-[#eaeaea] p-5 rounded-full" :class="item.text"></ion-icon>
+                      </div>
+                      <p class="text-center text-black font-semibold mt-2" x-text="item.name"></p>
+                  </div>
+              </template>
+          </div>
+      </div>
+       </section>
+       <!-- s -->
+        <section class="mt-14 mx-20"></section>
     </main>
     <script src="/src/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
