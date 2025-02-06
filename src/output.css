@@ -1028,6 +1028,9 @@
   .bg-\[\#eaeaea\] {
     background-color: #eaeaea;
   }
+  .bg-\[\#f7f7f7\] {
+    background-color: #f7f7f7;
+  }
   .bg-amber-200 {
     background-color: var(--color-amber-200);
   }
