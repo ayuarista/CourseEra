@@ -287,8 +287,41 @@
           </div>
       </div>
        </section>
-       <!-- s -->
-        <section class="mt-14 mx-20"></section>
+       <!-- Teacher -->
+        <section class="mt-16 mx-20">
+          <div class="text-left">
+            <p class="text-blue-400 uppercase font-medium">qualified teachers</p>
+            <h1 class="text-4xl font-bold capitalize">Meet the teacher who <br> teaches you online</h1>
+          </div>
+          <div class="grid grid-cols-5 gap-5 mt-10" x-data="teacher()">
+            <template x-for="item in items" :key="item.id">
+            <div class="relative rounded-full shadow-lg w-40 h-40">
+                <img :src="item.img" alt="" class="w-full h-full object-cover rounded-full p-2" />
+                <div class="absolute top-2 left-4">
+                  <ion-icon name="sparkles-outline" class="text-lg text-blue-400 bg-white p-2 rounded-full shadow-xl"></ion-icon>
+                </div>
+                <div class="mt-2">
+                  <h1 class="text-center font-bold text-[17px]" x-text="item.name"></h1>
+                  <p class="text-sm text-gray-400 text-center" x-text="item.jobs"></p>
+                </div>
+              </div>
+            </template>
+          </div>
+        </section>
+      <!-- CTA -->
+      <section class="relative w-full h-72 bg-blue-300 flex items-center px-10 md:px-20 mt-16">
+        <div class="max-w-2xl">
+            <p class="text-orange-400 text-xl italic">Get your quality</p>
+            <h1 class="text-white text-4xl md:text-5xl font-bold">
+                Skills certificate <br> from the edulerns
+            </h1>
+            <button class="mt-6 bg-black text-white px-6 py-3 rounded-md text-lg">
+                GET STARTED NOW
+            </button>
+        </div>
+        <div class="absolute right-0 bottom-0 w-1/2 h-full bg-cover bg-right" style="background-image: url('./src/assets/CTA.png');">
+        </div>
+    </section>
     </main>
     <script src="/src/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

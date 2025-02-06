@@ -95,3 +95,40 @@ function categories() {
     ],
   };
 }
+
+function teacher(){
+    return{
+        items: [
+            {
+                id: 1,
+                img: 'https://i.pinimg.com/736x/f2/d9/73/f2d9732c60ade0b6b82bea2c81498435.jpg',
+                name: 'Louis Patridge',
+                jobs: 'Software Engineer',
+            },
+            {
+                id: 2,
+                img: 'https://i.pinimg.com/736x/1e/5b/93/1e5b9396f2d4448961144beb02f2cf5e.jpg',
+                name: 'Liam Smith',
+                jobs: 'UI/UX Designer',
+            },
+            {
+                id: 3,
+                img: 'https://i.pinimg.com/736x/19/87/6d/19876dabad63e945f7826354c49052b5.jpg',
+                name: 'Jordan Brown',
+                jobs: 'Data Analyst',
+            },
+            {
+                id: 4,
+                img: 'https://i.pinimg.com/736x/36/c9/1a/36c91a097b8ff0f0a5468a2dcaa5b898.jpg',
+                name: 'Noah Williams',
+                jobs: 'Digital Marketer',
+            },
+            {
+                id: 5,
+                img: 'https://i.pinimg.com/736x/4c/fd/3b/4cfd3be3a7061e93f9268a46d183b71b.jpg',
+                name: 'Davis Bryan',
+                jobs: 'Cyber Security',
+            }
+        ]
+    }
+}
