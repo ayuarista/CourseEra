@@ -3,4 +3,5 @@
 
 html{
     font-family: "DM Sans", serif;
+    scroll-behavior: smooth;
 }
