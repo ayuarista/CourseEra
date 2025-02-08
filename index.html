@@ -197,7 +197,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-4 gap-7 mt-10" x-data="course()">
           <template x-for="item in items" :key="item.id">
             <div class="w-64 rounded-lg shadow-xl hover:scale-105 transition-transform duration-300">
-              <div class="relative">
+              <div class="">
                 <img :src="item.img" :alt="item.title" class="w-full h-56 object-cover rounded-t-lg" />
                 <div class="absolute top-4 right-0 rounded-tl-full rounded-bl-full bg-gradient-to-tl from-sky-300 to-sky-600 p-2 text-white">
                   <h1 class="font-semibold text-white text-sm" x-text="item.price"></h1>
